@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/icons/png/slavnem-logo.png</file>
+        <file>assets/icons/svg/bell.svg</file>
+        <file>assets/icons/svg/broom.svg</file>
+        <file>assets/icons/svg/coins.svg</file>
+        <file>assets/icons/svg/comment.svg</file>
+        <file>assets/icons/svg/computer.svg</file>
+        <file>assets/icons/svg/document.svg</file>
+        <file>assets/icons/svg/dollar.svg</file>
+        <file>assets/icons/svg/envelope.svg</file>
+        <file>assets/icons/svg/exclamation.svg</file>
+        <file>assets/icons/svg/film.svg</file>
+        <file>assets/icons/svg/globe.svg</file>
+        <file>assets/icons/svg/heart.svg</file>
+        <file>assets/icons/svg/info.svg</file>
+        <file>assets/icons/svg/lock.svg</file>
+        <file>assets/icons/svg/marker.svg</file>
+        <file>assets/icons/svg/mode-portrait.svg</file>
+        <file>assets/icons/svg/paper-plane.svg</file>
+        <file>assets/icons/svg/phone-call.svg</file>
+        <file>assets/icons/svg/picture.svg</file>
+        <file>assets/icons/svg/sack-dollar.svg</file>
+        <file>assets/icons/svg/search-alt.svg</file>
+        <file>assets/icons/svg/search.svg</file>
+        <file>assets/icons/svg/settings.svg</file>
+        <file>assets/icons/svg/share.svg</file>
+        <file>assets/icons/svg/shield-check.svg</file>
+        <file>assets/icons/svg/shield-exclamation.svg</file>
+        <file>assets/icons/svg/signal-alt-2.svg</file>
+        <file>assets/icons/svg/trash.svg</file>
+        <file>assets/icons/svg/unlock.svg</file>
+        <file>assets/icons/svg/users-alt.svg</file>
+        <file>assets/icons/svg/users.svg</file>
+        <file>assets/icons/svg/world.svg</file>
+        <file>assets/fonts/alansans/AlanSans-Black.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Bold.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-ExtraBold.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Light.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Medium.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Regular.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-SemiBold.ttf</file>
+        <file>assets/images/png/transformers-one-megatron.png</file>
+        <file>assets/loaders/duck-walking.gif</file>
+    </qresource>
+</RCC>

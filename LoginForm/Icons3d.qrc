@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/icons3d/3d-lock-crown.svg</file>
+        <file>assets/icons3d/3d-pc-security.svg</file>
+        <file>assets/icons3d/3d-product-management.svg</file>
+    </qresource>
+</RCC>

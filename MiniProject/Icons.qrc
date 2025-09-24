@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/icons/bell.svg</file>
+        <file>assets/icons/broom.svg</file>
+        <file>assets/icons/coins.svg</file>
+        <file>assets/icons/comment.svg</file>
+        <file>assets/icons/computer.svg</file>
+        <file>assets/icons/document.svg</file>
+        <file>assets/icons/dollar.svg</file>
+        <file>assets/icons/envelope.svg</file>
+        <file>assets/icons/exclamation.svg</file>
+        <file>assets/icons/film.svg</file>
+        <file>assets/icons/globe.svg</file>
+        <file>assets/icons/heart.svg</file>
+        <file>assets/icons/info.svg</file>
+        <file>assets/icons/lock.svg</file>
+        <file>assets/icons/marker.svg</file>
+        <file>assets/icons/mode-portrait.svg</file>
+        <file>assets/icons/paper-plane.svg</file>
+        <file>assets/icons/phone-call.svg</file>
+        <file>assets/icons/picture.svg</file>
+        <file>assets/icons/sack-dollar.svg</file>
+        <file>assets/icons/search-alt.svg</file>
+        <file>assets/icons/search.svg</file>
+        <file>assets/icons/settings.svg</file>
+        <file>assets/icons/share.svg</file>
+        <file>assets/icons/shield-check.svg</file>
+        <file>assets/icons/shield-exclamation.svg</file>
+        <file>assets/icons/signal-alt-2.svg</file>
+        <file>assets/icons/trash.svg</file>
+        <file>assets/icons/unlock.svg</file>
+        <file>assets/icons/users-alt.svg</file>
+        <file>assets/icons/users.svg</file>
+        <file>assets/icons/world.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/images/abstract-blackline-wallpaper-1920x1080.jpg</file>
+        <file>assets/images/black-wallpaper-1920x1080.jpg</file>
+    </qresource>
+</RCC>

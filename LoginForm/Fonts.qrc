@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/fonts/alansans/AlanSans-Black.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Bold.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-ExtraBold.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Light.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Medium.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-Regular.ttf</file>
+        <file>assets/fonts/alansans/AlanSans-SemiBold.ttf</file>
+    </qresource>
+</RCC>
