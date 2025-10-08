@@ -639,7 +639,10 @@ Window {
         ShapePath {
             id: myShapePath
             strokeWidth: 2
-            strokeColor: "#111"
+            strokeColor: Qt.rgba(0,0,0, 0.2)
+            strokeStyle: ShapePath.DashLine
+            dashPattern: [6, 3]
+            joinStyle: ShapePath.RoundJoin
 
             fillGradient: LinearGradient {
                 x1: 0
@@ -650,12 +653,12 @@ Window {
 
                 GradientStop {
                     position: 0.0
-                    color: "#4158D0"
+                    color: "#A6DAFF"
                 }
 
                 GradientStop {
                     position: 1.0
-                    color: "#C850C0"
+                    color: "#5EBCFF"
                 }
             }
 
