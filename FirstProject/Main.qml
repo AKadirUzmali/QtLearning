@@ -1,8 +1,13 @@
 import QtQuick
+
 // import QtQuick.Controls
-// import QtQuick.Controls.Material
+import QtQuick.Controls.Material
 // import QtQuick.Controls.Basic
 // import QtQuick.Controls.Universal
+
+// import QtQuick.Layouts
+
+import QtQuick.Shapes
 
 // import com.reddit
 // import FirstProject
@@ -528,4 +533,138 @@ Window {
         }
     }
     */
+
+    /*
+    ColumnLayout {
+        // anchors {
+        //     top: parent.top
+        //     left: parent.left
+        //     right: parent.right
+
+        //     margins: 24
+        // }
+
+        anchors.fill: parent
+        spacing: 24
+
+        Rectangle {
+            Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            // Layout.preferredWidth: 360
+            // Layout.preferredHeight: 180
+
+            color: "#434523"
+
+            Text {
+                anchors.centerIn: parent
+
+                font.pointSize: 16
+
+                color: "white"
+                text: parent.width
+            }
+        }
+
+        Button {
+            Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+
+            text: "Tıkla!"
+        }
+
+        Item {
+            Layout.fillHeight: true
+        }
+    }
+    */
+
+    /*
+    RowLayout {
+        width: parent.width
+
+        spacing: 24
+
+        Button {
+            text: "Tıkla!"
+        }
+
+        Button {
+            Layout.fillWidth: true
+            text: "Tıkla 2!"
+        }
+    }
+    */
+
+    /*
+    Rectangle {
+        anchors {
+            fill: parent
+            margins: 24
+        }
+
+        color: "#363636"
+
+        GridLayout {
+            id: myGrid
+            anchors.fill: parent
+            columns: 3
+            columnSpacing: 8
+            rowSpacing: 8
+            uniformCellHeights: true
+            uniformCellWidths: true
+
+            Repeater {
+                model: 9
+
+                Rectangle {
+                    color: Qt.rgba(Math.random(), Math.random(), Math.random())
+                    Layout.preferredWidth: (parent.width - (2 * myGrid.columnSpacing)) / 3
+                    Layout.preferredHeight: (parent.height - (2 * myGrid.rowSpacing)) / 3
+                }
+            }
+        }
+    }
+    */
+
+    Shape {
+        id: myShape
+
+        anchors {
+            fill: parent
+            margins: 24
+        }
+
+        antialiasing: true
+
+        ShapePath {
+            id: myShapePath
+            strokeWidth: 2
+            strokeColor: "#111"
+
+            fillGradient: LinearGradient {
+                x1: 0
+                y1: height
+
+                x2: width
+                y2: 0
+
+                GradientStop {
+                    position: 0.0
+                    color: "#4158D0"
+                }
+
+                GradientStop {
+                    position: 1.0
+                    color: "#C850C0"
+                }
+            }
+
+            PathRectangle {
+                width: myShape.width
+                height: myShape.height
+                radius: 8
+                strokeAdjustment: myShapePath.strokeWidth
+            }
+        }
+    }
 }

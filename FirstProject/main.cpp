@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QIcon>
 #include <QQmlContext>
+#include <QQuickWindow>
 
 #include "backendhelper.h"
 #include "backendregister.h"
@@ -12,6 +13,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     app.setWindowIcon(QIcon(":/assets/icons-png/slavnem-logo.png"));
 
+    QQuickWindow::setGraphicsApi(QSGRendererInterface::Software);
     QQmlApplicationEngine engine;
 
     BackendHelper backhelper;
